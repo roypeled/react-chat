@@ -1,0 +1,48 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline",
+    "server": "node ./src/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.1",
+    "jquery": "^3.1.1",
+    "lodash": "4.13.1",
+    "marked": "0.3.5",
+    "react": "15.1.0",
+    "react-dom": "15.1.0",
+    "react-loader": "^2.4.0",
+    "react-redux": "4.4.5",
+    "react-router": "2.4.1",
+    "redux": "3.5.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "6.4.0",
+    "babel-core": "6.13.2",
+    "babel-loader": "6.2.4",
+    "babel-plugin-transform-runtime": "6.12.0",
+    "babel-preset-es2015": "6.13.2",
+    "babel-preset-react": "6.11.1",
+    "babel-runtime": "6.11.6",
+    "clean-webpack-plugin": "0.1.10",
+    "css-loader": "0.23.1",
+    "expose-loader": "0.7.1",
+    "file-loader": "0.9.0",
+    "html-webpack-plugin": "2.22.0",
+    "json-loader": "0.5.4",
+    "node-sass": "3.8.0",
+    "postcss-loader": "0.10.0",
+    "react-hot-loader": "1.3.0",
+    "sass-loader": "4.0.0",
+    "style-loader": "0.13.1",
+    "url-loader": "0.5.7",
+    "webpack": "1.13.1",
+    "webpack-dev-server": "1.14.1"
+  }
+}
