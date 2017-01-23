@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "webpack-dev-server --hot --inline",
+    "hot": "webpack-dev-server --hot --inline",
+    "postinstall": "webpack",
     "start": "node ./src/server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
